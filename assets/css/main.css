@@ -1,0 +1,28 @@
+@import "tailwindcss" theme(static);
+@import "@nuxt/ui";
+
+@theme static {
+    --font-sans: "Noto Sans JP", sans-serif;
+}
+
+:root {
+    --ui-radius: var(--radius-md);
+}
+
+.font-akiba {
+    font-family: "KHドット秋葉原 16";
+}
+
+.font-kikai {
+    font-family: "機械彫刻用標準書体 M";
+}
+
+.font-dseg7 {
+    font-family: "DSEG7Classic-Bold";
+}
+.font-dseg7-italic {
+    font-family: "DSEG7Classic-Italic";
+}
+.font-dseg-weather {
+    font-family: "DSEGWeather";
+}
