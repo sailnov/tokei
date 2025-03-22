@@ -33,6 +33,7 @@ export default defineNuxtConfig({
         ],
     },
     app: {
+        baseURL: import.meta.env.NODE_ENV === 'development' ? '/' : '/tokei/',
         head: {
             htmlAttrs: {
                 class: 'dark',
