@@ -8,9 +8,6 @@ export default defineNuxtConfig({
         'pinia-plugin-persistedstate/nuxt',
     ],
     css: ['~/assets/css/main.css'],
-    ui: {
-        colorMode: false,
-    },
     fonts: {
         families: [
             {
@@ -34,5 +31,12 @@ export default defineNuxtConfig({
                 src: '/fonts/DSEGWeather.ttf',
             },
         ],
+    },
+    app: {
+        head: {
+            htmlAttrs: {
+                class: 'dark',
+            },
+        },
     },
 })

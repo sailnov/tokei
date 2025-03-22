@@ -17,12 +17,22 @@
     font-family: "機械彫刻用標準書体 M";
 }
 
-.font-dseg7 {
-    font-family: "DSEG7Classic-Bold";
+.font-montserrat {
+    font-family: "Montserrat", sans-serif;
 }
-.font-dseg7-italic {
-    font-family: "DSEG7Classic-Italic";
+
+.font-chivo {
+    font-family: "Chivo Mono", monospace;
 }
-.font-dseg-weather {
-    font-family: "DSEGWeather";
+
+.text-2xs {
+    font-size: 0.625em;
+}
+
+.hide-scrollbar {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
 }
